@@ -1,0 +1,65 @@
+body {
+    align-items: center;
+    justify-content: center;
+}
+
+ul li{
+    display: inline;
+    padding: 10px;
+
+}
+
+button {
+    color: blue;
+    border-radius: 30%;
+}
+
+nav {
+    background-color: white;
+}
+
+.navinfo {
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: black;
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row-reverse ;
+    position: sticky;
+    top: 0px;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    border: solid grey ;
+}
+
+.section1 {
+    background-color: brown ;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap ;
+    justify-content: center;
+}
+
+.findplan {
+     max-width: 100px;
+     scale: 1;
+}
+
+#jargon4 {
+    justify-content: center;
+    margin: auto;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    max-width: 500px;
+    max-height: 500px;
+}
+
+.section2 {
+    justify-content: center;
+    align-items: center;
+}
